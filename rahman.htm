@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. R. Rahman - This is A. R. Rahman</title>
+    <link rel="icon" type="image/x-icon" href="./images/melodify-logo.png">
+    <link rel="stylesheet" href="./rahman.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- div for nav bar, no need to give position fixed bcz gonna only move the 2nd main div-->
+    <div class="nav-div">
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-links link1" title="Melodify"><img src="./images/melodify-logo.png" alt="" class="melodify-logo"></a>
+            <a href="index.html" class="nav-links link2" title="Home"><img src="./images/home-icon.png" alt="home-icon" class="home-icon"></a>
+
+            <div class="search-bar">
+                <a href="" class="nav-links link3" title="Search"><img src="./images/search.png" alt="search" class="search"></a>
+                <form action="xscape.htm" method="get">
+                <input type="search" placeholder="What do you wanna play? " class="search-input">
+                </form>
+                <span class="border1"></span>               
+                <a href="browse.htm" class="nav-links link4" title="Browse"><img src="./images/browse.png" alt="browse" class="browse"></a>
+            </div>
+            <a href="premium.htm" class="nav-links link5">Premium</a>
+            <a href="" class="nav-links link6">Support</a>
+            <a href="" class="nav-links link7">Download</a>
+            <span class="border2"></span>
+            <a href="installapp.htm" class="nav-links link8"><img src="./images/install.png" alt="install" class="install"></a>
+            <a href="installapp.htm" class="nav-links link9">Install App</a>
+            <a href="./signup.htm" class="nav-links link10">Sign up</a>
+            <a href="./login.htm" class="nav-links link11">Log in</a>
+        </nav>
+    </div>
+
+    <!-- create 2 main div within one chief div and give 1st one 500px and for next one 1fr in grid -->
+
+    <div class="chief-div">
+        <!-- 1st div -->
+        <div class="main-div1">
+            <!-- box1 -->
+            <div class="library">
+                <p>Your Library</p>
+                <p class="plus">+</p>
+            </div>
+            <!-- box2 -->
+            <div class="playlist">
+                <p class="p1">Create your first playlist</p>
+                <p class="p2">It's easy, We'll help you</p>
+                <div><a href="">Create Playlist</a></div>
+            </div>
+            <!-- box3 -->
+            <div class="podcast">
+                <p class="p1">Let's find some podcasts to follow</p>
+                <p class="p2">We'll keep you updated on new episode</p>
+                <div><a href="">Browse Podcasts</a></div>
+            </div>
+            <!-- legal terms -->
+            <div class="terms">
+                <div>
+                <a href="">Legal</a>
+                <a href="">Safety & Privacy center</a>
+                </div>
+                <div>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookies</a>
+                <a href="">About Ads</a>
+                </div>
+                <div>
+                <a href="">Accessibility</a>
+                </div>
+            </div>
+            <!-- Theme -->
+             <div class="theme">
+                <a href="./melodify-day.htm"><img src="./images/themes.png" alt="themes"></a>
+                <a href="./melodify-day.htm">Change Theme</a>
+            </div>
+        </div>
+
+        <!-- 2nd div -->
+        <div class="main-div2">
+        <!-- xscape album -->
+        <div class="top-box">
+            <img src="./images/this-is-rahman.jpg" alt="tms-cover" class="xcape-open">
+            <div>
+                <p>Public Playlist</p>
+                <h1>A. R. Rahman</h1>
+                <p>This is A. R. Rahman. The essential tracks, all in one playlist.</p>
+                <div>
+                    <img src="./images/AR Rahman.jpg" alt="michael-jackson-profile" class="michael-jackson-profile">
+                    <a href="" class="mj-name">A. R. Rahman</a>
+                    <span class="album-details">&middot; 227,166 saves &middot; 12 songs, 1 hr 13 min</span>
+                </div>
+            </div>
+        </div>
+        <!-- box that is sticked -->
+    
+        <div class="second-box">
+            <div class="box-tobe-hidden">
+                <img src="./images/play-button.png" alt="play-button" class="play-button">
+                <h1>This is A. R. Rahman</h1>
+            </div>
+            
+        
+        <!-- <div class="stick-title">
+        <div class="songs-title">
+            <div class="left-end">
+                <p class="p1">#</p>
+                <p class="p2">Title</p>
+            </div>
+            <div class="right-end">
+                <img src="./images/clock.png" alt="clock" class="clock" title="Duration">
+            </div>
+        </div>
+        </div> -->
+
+       </div>
+    
+    
+    <div class="bg-color">
+        <div class="relative">
+            <div class="box-tobe-shown">
+                <a href=""><img src="./images/play-button.png" alt="play-button" class="play-button"></a>
+                <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Save to your Library"></a>
+                <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Xscape"></a>
+            </div>
+            <div class="end">
+                <a href="">List</a>
+            </div>
+        </div>
+           
+           <div class="songs-title-shown">
+            <div class="left-end">
+                <p class="p1">#</p>
+                <p class="p2">Title</p>
+            </div>
+            <div class="right-end">
+                <img src="./images/clock.png" alt="clock" class="clock" title="Duration">
+            </div>
+            </div>
+            <div class="border-bottom-after-title"></div>
+            
+    </div>
+    
+<!-- songs names in order -->
+    <div class="songs-name-margin">
+        <div class="stick-title">
+        <div class="songs-title">
+            <div class="left-end">
+                <p class="p1">#</p>
+                <p class="p2">Title</p>
+            </div>
+            <div class="right-end">
+                <img src="./images/clock.png" alt="clock" class="clock" title="Duration">
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">1</p>
+                <img src="./images/uravugalthodarkathai.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Uravugal thodarkathai</a>
+                    <a href="" class="a2">A. R. Rahman</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>2:57</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Uravugal thodarkathai by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Uravugal-Thodarkathai-MassTamilan.dev.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Uravugal thodarkathai by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">2</p>
+                <img src="./images/mannanalum.jpg" alt="mannanalum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">mannanalum</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>4:59</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play mannanalum by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Mannaanalum.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for mannanalum by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">3</p>
+                <img src="./images/Karpanai-Endralum.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Azhagendra sollukku</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:43</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Azhagendra sollukku by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Azhagendra Sollukku.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Azhagendra sollukku by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">4</p>
+                <img src="./images/Karpanai-Endralum.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Thiththikkum</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>3:10</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Thiththikkum by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Thiththikkum.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Thiththikkum by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">5</p>
+                <img src="./images/murugan.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Unnai paadum</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>9:59</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Unnai paadum by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Unnai Paadum.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Unnai paadum by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">6</p>
+                <img src="./images/tmshits.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Enakkum idam</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>4:50</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Enakkum idam by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Enakkum Idam.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Enakkum idam by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">7</p>
+                <img src="./images/Karpanai-Endralum.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Endhan Kuralil</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>4:20</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Endhan Kuralil by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Enthan Kuralil.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Endhan Kuralil by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">8</p>
+                <img src="./images/naanmalrodu.jpg" alt="naanmalrodu" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Naan malarodu</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>3:36</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Naan malarodu by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Naan-malarodu.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Naan malarodu by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">9</p>
+                <img src="./images/naan-aanaiyitaal.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Naan aanaiyitaal</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:04</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Naan aanaiyitaal by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Naan Anaiyittaal.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Naan aanaiyitaal by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">10</p>
+                <img src="./images/puthiya-vaanam.jpg" alt="Karpanai-Endralum" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Puthiya vaanam</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:59</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Puthiya vaanam by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Pudhiya-Vaanam-MassTamilan.com.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Puthiya vaanam by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">11</p>
+                <img src="./images/naalai-namathe.jpg" alt="naalai-namathe" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Naalai namathe</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>4:52</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Naalai namathe by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Naalai Namathe[M].mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Naalai namathe by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">12</p>
+                <img src="./images/naalai-namathe.jpg" alt="naalai-namathe" class="song-image">
+                <p class="p2">
+                    <a href="" class="a1">Neela Nayanangalil</a>
+                    <a href="" class="a2">K. J. Yesudas</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>4:21</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Neela Nayanangalil by K. J. Yesudas">
+                <audio controls>
+                    <source src="./audio/Neela Nayanangalil2.mp3" type="audio/mp3">
+                </audio>
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Neela Nayanangalil by K. J. Yesudas"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+
+    </div>
+    <!-- song name margin ends here -->
+
+
+    <!-- reference of this album -->
+     <div class="reference">
+        <p class="p1">May 9, 2014</p>
+        <p class="p2">Ⓟ 2014 saregama, Inc</p>
+     </div>
+     <!-- ref. ends -->
+
+     <!-- more by MJ -->
+      <div class="more-by-mj">
+        <div class="morebymj-heading">
+        <h1>More by T.M. Soundarajan</h1>
+        <h6><a href="">See discography</a></h6>
+        </div>
+        <div class="mj-flex">
+            <div class="scroll">
+                        <img src="./images/ulagamsutrumvaliban.jpg" alt="mj5" class="mj mj5">
+                        <div class="hide">
+                            <a href="" class="absolute"></a> 
+                            <audio id="audio1" controls>
+                                <source src="./audio/Nilavu Oru Pennagi.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/aayirathiloruvan.jpg" alt="mj6" class="mj mj6">
+                        <div class="hide">
+                            <a href="" class="absolute"></a> 
+                            <audio id="audio1" controls>
+                                <source src="./audio/Atho Andha Paravai.MP3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/nenjamundu.jpg" alt="mj7" class="mj mj7">
+                        <div class="hide">
+                            <a href="" class="absolute"></a> 
+                            <audio id="audio1" controls>
+                                <source src="./audio/Nenjam Undu Nermai Undu.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/balepandiya.jpg" alt="mj8" class="mj mj8">
+                        <div class="hide">
+                            <a href="" class="absolute"></a> 
+                            <audio id="audio1" controls>
+                                <source src="./audio/Neeye Unakku Endrum Niharanavan.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/budhanyesu.jpg" alt="mj9" class="mj mj9">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>
+                            <audio id="audio1" controls>
+                                <source src="./audio/Buddhan Yesu Gandhi - Chandhrodhayam.mp3" type="audio/mp3">
+                            </audio>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mgr.jpg" alt="mj10" class="mj mj10">
+                        <div class="hide">
+                            <a href="" class="absolute"></a> 
+                            <audio id="audio1" controls>
+                                <source src="./audio/Moondrezhuthil En.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+        </div>
+      </div>
+      <!-- more ny MJ ends here -->
+
+    <!-- browse album end -->
+            <!-- 2_box3 -->
+             <div class="final-container">
+        <div>
+            <div class="title">Company</div>
+            <div><a href="">About</a></div>
+            <div><a href="">Jobs</a></div>
+            <div><a href="">For the record</a></div>
+        </div>
+        <div>
+            <div class="title">Communities</div>
+            <div><a href="">For Artists</a></div>
+            <div><a href="">Developers</a></div>
+            <div><a href="">Advertising</a></div>
+            <div><a href="">Investors</a></div>
+            <div><a href="">Vendors</a></div>
+        </div>
+        <div>
+            <div class="title">Useful links</div>
+            <div><a href="">Support</a></div>
+            <div><a href="">Free Mobile App</a></div>
+            <div><a href="">Popular by country</a></div>
+        </div>
+        <div>
+            <div class="title">Spotify Plans</div>
+            <div><a href="">Premium Individual</a></div>
+            <div><a href="">Premium Duo</a></div>
+            <div><a href="">Premium Family</a></div>
+            <div><a href="">Premium Student</a></div>
+            <div><a href="">Spotify Free</a></div>
+        </div>
+        <div>
+            <a href=""><i class="fa fa-instagram" style="font-size:24px; color: white;"></i></a>
+            <a href=""><i class="fa fa-twitter" style="font-size:24px; color: white;"></i></a>
+            <a href=""><i class="fa fa-facebook-square" style="font-size:24px; color: white;"></i></a>
+        </div>
+       </div>
+       <!-- 2_box3 end -->
+        <div class="year">&copy;2025Melodify</div>
+        </div>
+    </div>
+</body>
+</html>

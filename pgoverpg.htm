@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melodify</title>
+    <link rel="icon" type="image/x-icon" href="./images/melodify-logo.png">
+    <link rel="stylesheet" href="./pgoverpg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- div for nav bar, no need to give position fixed bcz gonna only move the 2nd main div-->
+    <div class="nav-div">
+        <nav class="nav-bar">
+            <a href="./melodify.htm" class="nav-links link1" title="Melodify"><img src="./images/melodify-logo.png" alt="" class="melodify-logo"></a>
+            <a href="./melodify.htm" class="nav-links link2" title="Home"><img src="./images/home-icon.png" alt="home-icon" class="home-icon"></a>
+
+            <div class="search-bar">
+                <a href="" class="nav-links link3" title="Search"><img src="./images/search.png" alt="search" class="search"></a>
+                <form action="https://open.spotify.com/track/6eshWshFHQtOC84xxCylMU?si=c52c0e7e8948403c" method="get">
+                <input type="search" placeholder="What do you wanna play? " class="search-input">
+                </form>
+                <span class="border1"></span>               
+                <a href="./browse.htm" class="nav-links link4" title="Browse"><img src="./images/browse.png" alt="browse" class="browse"></a>
+            </div>
+            <a href="" class="nav-links link5">Premium</a>
+            <a href="" class="nav-links link6">Support</a>
+            <a href="" class="nav-links link7">Download</a>
+            <span class="border2"></span>
+            <a href="./installapp.htm" class="nav-links link8"><img src="./images/install.png" alt="install" class="install"></a>
+            <a href="./installapp.htm" class="nav-links link9">Install App</a>
+            <a href="./signup.htm" class="nav-links link10">Sign up</a>
+            <a href="./login.htm" class="nav-links link11">Log in</a>
+        </nav>
+    </div>
+
+    <!-- create 2 main div within one chief div and give 1st one 500px and for next one 1fr in grid -->
+
+
+    <div class="chief-div">
+
+        <!-- 1st div -->
+        <div class="main-div1">
+            <!-- box1 -->
+            <div class="library">
+                <p>Your Library</p>
+                <p class="plus">+</p>
+            </div>
+            <!-- box2 -->
+            <div class="playlist">
+                <p class="p1">Create your first playlist</p>
+                <p class="p2">It's easy, We'll help you</p>
+                <div><a href="">Create Playlist</a></div>
+            </div>
+            <!-- box3 -->
+            <div class="podcast">
+                <p class="p1">Let's find some podcasts to follow</p>
+                <p class="p2">We'll keep you updated on new episode</p>
+                <div><a href="">Browse Podcasts</a></div>
+            </div>
+            <!-- legal terms -->
+            <div class="terms">
+                <div>
+                <a href="">Legal</a>
+                <a href="">Safety & Privacy center</a>
+                </div>
+                <div>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookies</a>
+                <a href="">About Ads</a>
+                </div>
+                <div>
+                <a href="">Accessibility</a>
+                </div>
+            </div>
+            <!-- Theme -->
+             <div class="theme">
+                <a href="./melodify-day.htm"><img src="./images/themes.png" alt="themes"></a>
+                <a href="./melodify-day.htm">Change Theme</a>
+            </div>
+        </div>
+
+        <!-- 2nd div -->
+        <div class="main-div2">
+            <!-- 2_box1 -->
+            <div class="trendings">
+                <!-- titling -->
+                <div class="heading">
+                    <h1>Trending songs</h1>
+                    <a href="./showall-songs.htm">Show all</a>
+                </div>
+                <!-- arrange song images -->
+                 <div class="trending-songs">
+                <div class="album">
+                    <div class="scroll">
+                        <img src="./images/mj1.jpg" alt="mj1" class="mj mj1">
+                        <div class="hide">
+                            <a href="xscape.htm" class="absolute"></a> 
+                            <audio controls>
+                                <source src="./audio/Xscape.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj2.jpg" alt="mj2" class="mj mj2">
+                        <div class="hide">
+                            <a href="./thriller.htm" class="absolute"></a>  
+                            <audio controls>
+                                <source src="./audio/Thriller.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj3.jpg" alt="mj3" class="mj mj3">
+                        <div class="hide">
+                            <a href="./forever-mic.htm" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj4.jpg" alt="mj4" class="mj mj4">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj5.jpg" alt="mj5" class="mj mj5">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj6.jpg" alt="mj6" class="mj mj6">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj7.jpg" alt="mj7" class="mj mj7">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj8.jpg" alt="mj8" class="mj mj8">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj9.jpg" alt="mj9" class="mj mj9">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj10.jpg" alt="mj10" class="mj mj10">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- 2_box2 -->
+            <div class="artists">
+                <div class="heading">
+                    <h1>Popular artists</h1>
+                    <a href="./showall-artists.htm">Show all</a>
+                </div>
+                <!-- arrange artists images -->
+                 <div class="popular-artists">
+                <div class="album">
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/tms.jpg" alt="tms" class="artist-image">
+                            <p><a href="" class="a1" id="tms">T. M. Soundararajan</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="tms.htm" class="absolute1"></a>
+                              
+                            <audio id="audio1" controls >
+                                <source src="./audio/Naan-malarodu.mp3" type="audio/mp3">
+                            </audio>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/PB Sreenivas.jpg" alt="pb-Sreenivas" class="artist-image">
+                            <p><a href="" class="a1">P. B. Sreenivas</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="pbs.htm" class="absolute1"></a> 
+                            <audio id="audio1" controls >
+                                <source src="./audio/Kaatru Vanthal Thalai Saayum.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/spb.jpg" alt="spb" class="artist-image">
+                            <p><a href="" class="a1" id="spb">S. P. Balasubrahmanyam</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a> 
+                            <audio id="audio1" controls >
+                                <source src="./audio/Keeravani-MassTamilan.com.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/yesudas.jpg" alt="yesudas" class="artist-image">
+                            <p><a href="" class="a1">K. J. Yesudas</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a>
+                            <audio id="audio1" controls >
+                                <source src="./audio/Uravugal-Thodarkathai-MassTamilan.dev.mp3" type="audio/mp3">
+                            </audio>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/AR Rahman.jpg" alt="AR-rahman" class="artist-image">
+                            <p><a href="" class="a1">A.R. Rahman</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a>   
+                            <audio id="audio1" controls >
+                                <source src="./audio/Sahana-Saral-Thoo.mp3" type="audio/mp3">
+                            </audio>        
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/Ilaiyaraja.jpg" alt="Ilaiyaraja" class="artist-image">
+                            <p><a href="" class="a1">Ilaiyaraaja</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a>
+                            <audio id="audio1" controls >
+                                <source src="./audio/Ninaivo-Oru-Paravai-MassTamilan.com.mp3" type="audio/mp3">
+                            </audio>            
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/hariharan.jpg" alt="hariharan" class="artist-image">
+                            <p><a href="" class="a1">Hariharan</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a>
+                            <audio id="audio1" controls >
+                                <source src="./audio/Nila-Kaaigirathu-(M)-MassTamilan.dev.mp3" type="audio/mp3">
+                            </audio>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/harris.jpg" alt="harris" class="artist-image">
+                            <p><a href="" class="a1">Harris Jeyaraj</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a>  
+                            <audio id="audio1" controls >
+                                <source src="./audio/Ennamo Yeadho.mp3" type="audio/mp3">
+                            </audio>         
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/karthick.jpg" alt="karthick" class="artist-image">
+                            <p><a href="" class="a1">karthick</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a>    
+                            <audio id="audio1" controls >
+                                <source src="./audio/Oru-Naalaikkul.mp3" type="audio/mp3">
+                            </audio>       
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                    <div class="scroll1">
+                        <div class="artist-name">
+                            <img src="./images/vidhyasagar.jpg" alt="vidhyasagar" class="artist-image">
+                            <p><a href="" class="a1">Vidhyasagar</a></p>
+                            <p><a href="" class="a2">Artist</a></p>
+                        </div>
+                        <div class="hide1">
+                            <a href="" class="absolute1"></a> 
+                            <audio id="audio1" controls >
+                                <source src="./audio/Malare.mp3" type="audio/mp3">
+                            </audio>          
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play1"></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- 2_box3 -->
+             <div class="final-container">
+        <div>
+            <div class="title">Company</div>
+            <div><a href="">About</a></div>
+            <div><a href="">Jobs</a></div>
+            <div><a href="">For the record</a></div>
+        </div>
+        <div>
+            <div class="title">Communities</div>
+            <div><a href="">For Artists</a></div>
+            <div><a href="">Developers</a></div>
+            <div><a href="">Advertising</a></div>
+            <div><a href="">Investors</a></div>
+            <div><a href="">Vendors</a></div>
+        </div>
+        <div>
+            <div class="title">Useful links</div>
+            <div><a href="">Support</a></div>
+            <div><a href="">Free Mobile App</a></div>
+            <div><a href="">Popular by country</a></div>
+        </div>
+        <div class="plans">
+            <div class="title">Spotify Plans</div>
+            <div><a href="">Premium Individual</a></div>
+            <div><a href="">Premium Duo</a></div>
+            <div><a href="">Premium Family</a></div>
+            <div><a href="">Premium Student</a></div>
+            <div><a href="">Spotify Free</a></div>
+        </div>
+        <div>
+            <a href=""><i class="fa fa-instagram" style="font-size:24px; color: white;"></i></a>
+            <a href=""><i class="fa fa-twitter" style="font-size:24px; color: white;"></i></a>
+            <a href=""><i class="fa fa-facebook-square" style="font-size:24px; color: white;"></i></a>
+        </div>
+       </div>
+       <!-- 2_box3 end -->
+        <div class="year">&copy;2025Melodify</div>
+        </div>
+    </div>
+
+
+                     <!-- for page over page -->
+
+<div class="pg-over-pg">
+        <div class="bg-for-pg">
+            <img src="./images/mj1.jpg" alt="mj1" class="pg-image">
+            <div class="to-move">
+                <h1>Start listening with a </h1>
+                <h1>free Spotify account</h1>
+                <div class="s-up-free"><a href="signup.htm">sign up free</a></div>
+                <div class="d-app"><a href="installapp.htm">Download App</a></div>
+                <div class="already">Already have an account? <a href="login.htm">Log in</a></div>
+            </div>
+        </div>
+        <div class="close">
+            <a href="index.html">Close</a>
+        </div>
+    
+</div>
+
+
+
+
+</body>
+</html>

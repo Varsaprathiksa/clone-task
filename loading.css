@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+.relative{
+    position: relative;
+    margin: auto;
+    top: 350px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(37, 45, 81, 0.3);
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box1{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(62, 63, 128);
+    top: 5%;
+    left: 5%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box2{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(89,72,161,255);
+    top: 10%;
+    left: 10%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box3{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: rgba(121,77,186,255);
+    top: 15%;
+    left: 15%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box4{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(151,79,197,255);
+    top: 20%;
+    left: 20%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box5{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(179,80,197,255);
+    top: 25%;
+    left: 25%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box6{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(197,77,184,255);
+    top: 30%;
+    left: 30%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box7{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(215,80,169,255);
+    top: 35%;
+    left: 35%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box8{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: rgba(226,82,145,255);
+    top: 35%;
+    left: 35%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box9{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background-color: rgba(233,86,119,255);
+    top: 40%;
+    left: 40%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box10{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: rgba(231,92,92,255);
+    top: 45%;
+    left: 45%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box11{
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: rgba(237,115,67,255);
+    top: 45%;
+    left: 45%;
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+.box12{
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-color: rgba(246,189,166,255);
+    top: 47.5%;
+    left: 47.5%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px rgba(246,189,166,255), -10px -10px 50px rgba(246,189,166,255);
+    animation: box 2s linear 0s infinite alternate-reverse;
+}
+@keyframes box {
+    from{
+        transform: rotate(40deg);
+    }
+    to{
+        transform: rotate(-40deg);
+        border-radius: 50%;
+    }
+    
+}

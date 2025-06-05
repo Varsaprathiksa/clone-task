@@ -1,0 +1,1518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #f4c5c9, rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0), rgb(1, 0, 0));
+    /* background-color: black; */
+}
+
+/* for nav bar (Top) */
+
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 50px;
+}
+
+
+.link2{
+    padding-right: 70px;
+}
+.link5{
+    padding-left: 450px;
+}
+.link5, .link6, .link7{
+    padding-right: 30px;
+}
+.border2{
+    border-right: 2px solid white;
+    padding-right: 20px;
+    padding-top: 35px;
+    margin-right: 45px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.3rem;
+}
+.link10, .link11{
+    color: ghostwhite;
+    padding-left: 35px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+.link5:hover{
+    color: rgb(29, 185, 84);
+}
+.link6:hover{
+    color: rgb(29, 185, 84);
+}
+.link7:hover{
+    color: rgb(29, 185, 84);
+}
+.link9:hover{
+    color: rgb(29, 185, 84);
+}
+.link10:hover{
+    color: rgb(29, 185, 84);
+}
+.link11:hover{
+    color: rgb(29, 185, 84);
+}
+.top{
+    margin-top: 100px;
+    margin-left: 250px;
+    color: white;
+}
+.top > h1{
+    margin-bottom: 0;
+    font-size: 4rem;
+    line-height: 0.9;
+}
+.only-div{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-size: 1.4rem;
+}
+.top-boxes{
+    display: flex;
+    margin-bottom: 45px;
+}
+.top-boxes > .box1 > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.top-boxes > .box1{
+    background-color: #FFD2D7;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 15px 35px;
+}
+.top-boxes > .box2 > a{
+    text-decoration: none;
+    color: white;
+}
+.top-boxes > .box2{
+    border: 1px solid ghostwhite;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 15px 35px;
+    margin-left: 20px;
+}
+.top > p{
+    font-size: 1rem;
+}
+.top > p > a{
+    color: white;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+.spot-grid-div{
+    position: relative;
+    overflow: hidden;
+    width: 900px;
+    height: 610px;
+    /* border: 1px solid red; */
+}
+.spot-grid-img{
+    overflow: hidden;
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    left: 120px;
+    top: -243px;
+    transform: rotate(-30deg);
+}
+.center{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+.center > h1{
+    font-size: 3.5rem;
+}
+.center > p{
+    font-size: 2rem;
+}
+.center-table{
+    display: flex;
+    justify-content: center;
+}
+.fa-check-circle{
+    color: white;
+}
+table{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    width: 600px;
+    color: white;
+}
+table,th,td{
+    padding: 20px 15px;
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+}
+th{
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.td-1{
+    font-size: 1.2rem;
+    text-decoration: underline dotted rgb(165, 165, 165);
+    text-underline-offset: 5px;
+   /* border-bottom: 1px solid white; */
+}
+.td-2{
+    font-size: 4rem;
+    color: gray;
+}
+.hover-tr:hover{
+    background-color: rgba(105, 105, 105, 0.4);
+}
+.hover-tr:hover .alpha{
+    background-color: rgba(83, 83, 83, 0.9);
+}
+.below-table{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.below-table > h1{
+    color: white;
+    font-size: 2.5rem;
+}
+.below-table > p{
+    color: white;
+    font-size: 1.5rem;
+}
+.images-div{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.pay-mode1, .pay-mode4{
+    margin-right: 5px;
+    background-color: white;
+    padding: 5px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+.pay-mode2, .pay-mode3{
+    margin-right: 5px;
+    background-color: white;
+    padding: 10px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+}
+.six-more{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.after-pays{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.after-pays > h1{
+    font-size: 2.5rem;
+    margin-right: 35px;
+}
+.after-pays > div > p{
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+.absolute{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    top: 40px;
+    left: 800px;
+    opacity: 0;
+}
+.onein6, .threein6, .fivein6{
+    width: 70px;
+    height: 55px;
+    margin-right: 5px;
+}
+.twoin6, .fourin6, .sixin6{
+    width: 60px;
+}
+.six-more:hover .absolute{
+    opacity: 1;
+}
+.four-boxes{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px;
+}
+.box-1{
+    width: 500px;
+    height: 650px;
+    background-color: rgb(75, 75, 75);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.glued-box{
+    background-color: pink;
+    width: 200px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px 10px;
+}
+.box-1 > .div2{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.box-1 > .div2 >img{
+    display: flex;
+    align-items: center;
+    width: 35px;
+}
+.box-1 > .div2 >span{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.box-1 > h1{
+    color: pink;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 2.5rem;
+}
+.box-1 > .p1{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.box-1 > .p2{
+    color: rgb(200, 200, 200);
+    font-size: 1.2rem;
+    margin-left: 25px;
+}
+.border-bottom{
+    width: 450px;
+    margin: 25px;
+    border-bottom: 1px solid gray;
+}
+.for-list{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.box-1 > .for-list > ul{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.pink-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 25px;
+    width: 450px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50px;
+}
+.pink-box > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.transparent-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 450px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+}
+.transparent-box > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.box-end{
+    margin-top: 45px;
+}
+.box-end > p{
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(200, 200, 200);
+}
+.box-end > p > a{
+    color: rgb(200, 200, 200);
+}
+.box-2 > .glued-box{
+    background-color: rgb(156, 179, 202);
+}
+.box-2 > h1{
+    color: rgb(156, 179, 202);
+}
+.box-2 > .for-list{
+    margin-top: 10px;
+}
+.box-2 > .pink-box{
+    background-color: rgb(156, 179, 202);
+    margin-top: 35px;
+}
+.box-3 > .glued-box{
+    background-color: rgb(239, 225, 90);
+}
+.box-3 > h1{
+    color: rgb(239, 225, 90);
+}
+.box-3 > .pink-box{
+    background-color: rgb(239, 225, 90);
+}
+.box-4 > .glued-box{
+    background-color: rgb(196, 196, 250);
+}
+.box-4 > h1{
+    color: rgb(196, 196, 250);
+}
+.box-4 > .pink-box{
+    background-color: rgb(196, 196, 250);
+}
+.questions{
+    margin-top: 100px;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+.answers, .find-more{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.find-more > a{
+    color: white;
+}
+.qn-transition{
+    overflow: hidden;  
+    margin: 20px auto;
+    width: 80%;
+    height: 100px;
+    padding: 15px 0px;
+    border-bottom: 1px solid gray;
+    margin-bottom: -20px;
+    transition: height 1s linear;
+}
+.qn-transition > .div1{
+    margin: 20px auto;
+    width: 90%;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+.qn-transition > .div1 > img{
+    width: 30px;
+    transition: transform 1s linear;
+}
+.qn-transition > .div2{
+    width: 90%;
+    font-size: 1.3rem;
+    color: white;
+    text-align: justify;
+    padding: 25px;
+    background-color: #242424;
+    margin: 20px auto;
+}
+.qn-transition > .div2 > p{
+    padding-left: 105px;
+    margin: 20px auto;
+}
+.qn-transition:hover{
+    height: 350px;
+}
+.qn-transition:hover .div1{
+    background-color: rgba(83, 83, 83, 0.7);
+}
+.qn-transition:hover .div1 > p{
+    text-decoration: underline;
+}
+.qn-transition:hover .div1 > img{
+    transform: rotateX(180deg);
+}
+.qn-transition > .div2 > p > a{
+   color: white;
+}
+.footer{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.footer > .foot1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.foot1 > .title1 > img{
+    width: 30px;
+}
+.foot1 > .title1 > span{
+    color: white;
+    font-size: 2rem;
+}
+.foot1 > .title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.foot1 > .title > div{
+    font-size: 1.4rem;
+    color: rgb(140, 140, 140);
+    margin-bottom: 10px;
+}
+.foot1 > .title > a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foot1 > .title > a:hover{
+    color: rgb(29, 185, 84);
+}
+.fa-instagram, .fa-twitter, .fa-facebook-square{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 15px;
+}
+.foot2{
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 100px;
+    margin-right: 200px;
+}
+.foot3{
+    margin-left: 150px;
+}
+.foot3 > a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgb(170, 169, 169);
+    word-spacing: -0.1em;
+}
+.foot3 > a:hover{
+    color: rgb(29, 185, 84);
+}
+
+
+/* media Query */
+
+@media screen and (max-width:576px){
+
+    .nav-div{
+        width: 100%;
+        height: fit-content;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-bar{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-links{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 30px;
+}
+.link2{
+    padding-right: 10px;
+}
+.link5{
+    padding-left: 10px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.1rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+}
+.top{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.top > h1{
+    margin-bottom: 0;
+    font-size: 2rem;
+    line-height: 0.9;
+}
+.top-section{
+    display: block;
+}
+.spot-grid-div{
+    display: none;
+    
+}
+.spot-grid-img{
+    display: none;
+}
+.center{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.center > h1{
+    font-size: 2rem;
+}
+.center > p{
+    font-size: 1.2rem;
+}
+table{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    width: 300px;
+}
+th{
+    width: 50px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.td-1{
+    font-size: 1.2rem;
+}
+.below-table{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.below-table > h1{
+    font-size: 2rem;
+}
+.below-table > p{
+    font-size: 1.1rem;
+}
+.images-div{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.after-pays{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.after-pays > h1{
+
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.after-pays > div > p{
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
+.absolute{
+    top: 40px;
+    left: 100px;
+    opacity: 0;
+}
+.four-boxes{
+    padding: 0px;
+}
+.box-1{
+    width: 300px;
+    height: 850px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.border-bottom{
+    width: 250px;
+}
+
+.pink-box{
+    margin-top: 55px;
+    margin-left: 25px;
+    width: 250px;
+    height: 50px;
+}
+.transparent-box{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 250px;
+    height: 50px;
+}
+
+.questions{
+    margin-top: 0;
+    font-size: 2rem;
+}
+.answers, .find-more{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.qn-transition > .div1{
+    font-size: 1.3rem;
+}
+.qn-transition > .div2{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 20px auto;
+}
+.qn-transition > .div2 > p{
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.footer{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer > .foot1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot1 > .title1 > img{
+    width: 20px;
+}
+.foot1 > .title1 > span{
+    font-size: 1.5rem;
+}
+.foot1 > .title{
+    margin-left: 10px;
+}
+.foot1 > .title > div{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.foot1 > .title > a{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-instagram, .fa-twitter, .fa-facebook-square{
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.foot2{
+    margin-right: 100px;
+}
+.foot3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+}
+
+
+
+@media screen and (min-width:577px) and (max-width:760px) {
+    .nav-links{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 30px;
+}
+.link2{
+    padding-right: 10px;
+}
+.link5{
+    padding-left: 10px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.1rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+}
+.top{
+    margin-top: 400px;
+    margin-left: 100px;
+}
+.top > h1{
+    margin-bottom: 0;
+    font-size: 2rem;
+    line-height: 0.9;
+}
+.top-section{
+    display: block;
+}
+.spot-grid-div{
+    position: relative;
+    overflow: hidden;
+    top: -718px;
+    left: -100px;
+    width: 706px;
+    height: 410px;
+    
+}
+.spot-grid-img{
+    overflow: hidden;
+    position: absolute;
+    width: 645px;
+    height: 410px;
+    left: 120px;
+    top: -243px;
+}
+.center{
+    margin-top: -250px;
+}
+.center > h1{
+    font-size: 2rem;
+}
+.center > p{
+    font-size: 1.2rem;
+}
+table{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    width: 500px;
+}
+th{
+    width: 50px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.td-1{
+    font-size: 1.2rem;
+}
+.below-table{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.below-table > h1{
+    font-size: 2rem;
+}
+.below-table > p{
+    font-size: 1.1rem;
+}
+.images-div{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.after-pays{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.after-pays > h1{
+
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.after-pays > div > p{
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
+.absolute{
+    top: 40px;
+    left: 150px;
+    opacity: 0;
+}
+.four-boxes{
+    padding: 50px;
+}
+.questions{
+    margin-top: 0;
+    font-size: 2rem;
+}
+.answers, .find-more{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.qn-transition > .div1{
+    font-size: 1.3rem;
+}
+.qn-transition > .div2{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 20px auto;
+}
+.qn-transition > .div2 > p{
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.footer{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer > .foot1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot1 > .title1 > img{
+    width: 20px;
+}
+.foot1 > .title1 > span{
+    font-size: 1.5rem;
+}
+.foot1 > .title{
+    margin-left: 10px;
+}
+.foot1 > .title > div{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.foot1 > .title > a{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-instagram, .fa-twitter, .fa-facebook-square{
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.foot2{
+    margin-right: 100px;
+}
+.foot3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+}
+
+@media screen and (min-width:761px) and (max-width:900px) {
+        .nav-links{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 40px;
+}
+.link2{
+    padding-right: 20px;
+}
+.link5{
+    padding-left: 30px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.1rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+}
+.top{
+    margin-top: 400px;
+    margin-left: 100px;
+}
+.top > h1{
+    margin-bottom: 0;
+    font-size: 2rem;
+    line-height: 0.9;
+}
+.top-section{
+    display: block;
+}
+.spot-grid-div{
+    position: relative;
+    overflow: hidden;
+    top: -718px;
+    left: -70px;
+    width: 815px;
+    height: 410px;
+}
+.spot-grid-img{
+    overflow: hidden;
+    position: absolute;
+    width: 800px;
+    height: 410px;
+    left: 110px;
+    top: -243px;
+}
+.center{
+    margin-top: -250px;
+}
+.center > h1{
+    font-size: 2rem;
+}
+.center > p{
+    font-size: 1.2rem;
+}
+table{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    width: 500px;
+}
+th{
+    width: 50px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.td-1{
+    font-size: 1.2rem;
+}
+.below-table{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.below-table > h1{
+    font-size: 2rem;
+}
+.below-table > p{
+    font-size: 1.1rem;
+}
+.images-div{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.after-pays{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.after-pays > h1{
+
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.after-pays > div > p{
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
+.absolute{
+    top: 40px;
+    left: 150px;
+    opacity: 0;
+}
+.four-boxes{
+    padding: 50px;
+}
+.questions{
+    margin-top: 0;
+    font-size: 2rem;
+}
+.answers, .find-more{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.qn-transition > .div1{
+    font-size: 1.3rem;
+}
+.qn-transition > .div2{
+    font-size: 1rem;
+    padding: 5px;
+    margin: 20px auto;
+}
+.qn-transition > .div2 > p{
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.footer{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.footer > .foot1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot1 > .title1 > img{
+    width: 20px;
+}
+.foot1 > .title1 > span{
+    font-size: 1.5rem;
+}
+.foot1 > .title{
+    margin-left: 10px;
+}
+.foot1 > .title > div{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.foot1 > .title > a{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-instagram, .fa-twitter, .fa-facebook-square{
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.foot2{
+    margin-right: 100px;
+}
+.foot3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+}
+@media screen and (min-width:901px) and (max-width:1000px){
+    .nav-links{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 50px;
+}
+.link2{
+    padding-right: 30px;
+}
+.link5{
+    padding-left: 50px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.3rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+.top{
+    margin-top: 400px;
+    margin-left: 200px;
+}
+.top > h1{
+    margin-bottom: 0;
+    font-size: 2.2rem;
+    line-height: 0.9;
+}
+.top-section{
+    display: block;
+}
+.spot-grid-div{
+    position: relative;
+    overflow: hidden;
+    top: -726px;
+    left: -60px;
+    width: 800px;
+    height: 410px;
+}
+.spot-grid-img{
+    overflow: hidden;
+    position: absolute;
+    width: 800px;
+    height: 410px;
+    left: 110px;
+    top: -243px;
+}
+.center{
+    margin-top: -250px;
+}
+.center > h1{
+    font-size: 2.2rem;
+}
+.center > p{
+    font-size: 1.3rem;
+}
+table{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    width: 600px;
+}
+th{
+    width: 50px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.below-table{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.below-table > h1{
+    font-size: 2rem;
+}
+.below-table > p{
+    font-size: 1.2rem;
+}
+.images-div{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.after-pays{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.after-pays > h1{
+
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.after-pays > div > p{
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+.absolute{
+    top: 40px;
+    left: 150px;
+    opacity: 0;
+}
+.four-boxes{
+    padding: 50px;
+}
+.qn-transition > .div2 > p{
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+.footer{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.footer > .foot1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot1 > .title1 > img{
+    width: 20px;
+}
+.foot1 > .title1 > span{
+    font-size: 1.5rem;
+}
+.foot1 > .title{
+    margin-left: 10px;
+}
+.foot1 > .title > div{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.foot1 > .title > a{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-instagram, .fa-twitter, .fa-facebook-square{
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.foot2{
+    margin-right: 100px;
+}
+.foot3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+}
+@media screen and (min-width:1001px) and (max-width:1100px) {
+
+    .nav-links{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 50px;
+}
+.link2{
+    padding-right: 50px;
+}
+.link5{
+    padding-left: 50px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.3rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+.absolute{
+    top: 40px;
+    left: 150px;
+    opacity: 0;
+}
+.qn-transition > .div2 > p{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+}
+@media screen and (min-width:1101px) and (max-width:1199px) {
+    .nav-links{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 50px;
+}
+.link2{
+    padding-right: 50px;
+}
+.link5{
+    padding-left: 50px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.3rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+.absolute{
+    top: 40px;
+    left: 400px;
+    opacity: 0;
+}
+.qn-transition > .div2 > p{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+
+}
+@media screen and (min-width:1200px) and (max-width:1300px) {
+    .nav-links{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 50px;
+}
+.link2{
+    padding-right: 50px;
+}
+.link5{
+    padding-left: 50px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.3rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+.absolute{
+    top: 40px;
+    left: 500px;
+    opacity: 0;
+}
+.qn-transition > .div2 > p{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+
+}
+@media screen and (min-width:1301px) and (max-width:1400px) {
+    .nav-links{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.melodify-logo{
+    width: 50px;
+}
+.link2{
+    padding-right: 50px;
+}
+.link5{
+    padding-left: 350px;
+}
+.link5, .link6, .link7{
+    padding-right: 10px;
+}
+.border2{
+    padding-right: 5px;
+    padding-top: 25px;
+    margin-right: 5px;
+}
+.link9{
+    padding-left: 5px;
+    font-size: 1.3rem;
+}
+.link10, .link11{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+.absolute{
+    top: 40px;
+    left: 500px;
+    opacity: 0;
+}
+.qn-transition > .div2 > p{
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+}

@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xscape - Album by Michael Jackson</title>
+    <link rel="icon" type="image/x-icon" href="./images/melodify-logo.png">
+    <link rel="stylesheet" href="./xscape-day.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- div for nav bar, no need to give position fixed bcz gonna only move the 2nd main div-->
+    <div class="nav-div">
+        <nav class="nav-bar">
+            <a href="melodify-day.htm" class="nav-links link1" title="Melodify"><img src="./images/melodify-logo.png" alt="" class="melodify-logo"></a>
+            <a href="melodify-day.htm" class="nav-links link2" title="Home"><img src="./images/home-icon.png" alt="home-icon" class="home-icon"></a>
+
+            <div class="search-bar">
+                <a href="" class="nav-links link3" title="Search"><img src="./images/search.png" alt="search" class="search"></a>
+                <form action="https://open.spotify.com/track/6eshWshFHQtOC84xxCylMU?si=c52c0e7e8948403c" method="get">
+                <input type="search" placeholder="What do you wanna play? " class="search-input">
+                </form>
+                <span class="border1"></span>               
+                <a href="browse.htm" class="nav-links link4" title="Browse"><img src="./images/browse.png" alt="browse" class="browse"></a>
+            </div>
+            <a href="premium.htm" class="nav-links link5">Premium</a>
+            <a href="" class="nav-links link6">Support</a>
+            <a href="" class="nav-links link7">Download</a>
+            <span class="border2"></span>
+            <a href="installapp.htm" class="nav-links link8"><img src="./images/install.png" alt="install" class="install"></a>
+            <a href="installapp.htm" class="nav-links link9">Install App</a>
+            <a href="./signup.htm" class="nav-links link10">Sign up</a>
+            <a href="./login.htm" class="nav-links link11">Log in</a>
+        </nav>
+    </div>
+
+    <!-- create 2 main div within one chief div and give 1st one 500px and for next one 1fr in grid -->
+
+    <div class="chief-div">
+        <!-- 1st div -->
+        <div class="main-div1">
+            <!-- box1 -->
+            <div class="library">
+                <p>Your Library</p>
+                <p class="plus">+</p>
+            </div>
+            <!-- box2 -->
+            <div class="playlist">
+                <p class="p1">Create your first playlist</p>
+                <p class="p2">It's easy, We'll help you</p>
+                <div><a href="">Create Playlist</a></div>
+            </div>
+            <!-- box3 -->
+            <div class="podcast">
+                <p class="p1">Let's find some podcasts to follow</p>
+                <p class="p2">We'll keep you updated on new episode</p>
+                <div><a href="">Browse Podcasts</a></div>
+            </div>
+            <!-- legal terms -->
+            <div class="terms">
+                <div>
+                <a href="">Legal</a>
+                <a href="">Safety & Privacy center</a>
+                </div>
+                <div>
+                <a href="">Privacy Policy</a>
+                <a href="">Cookies</a>
+                <a href="">About Ads</a>
+                </div>
+                <div>
+                <a href="">Accessibility</a>
+                </div>
+            </div>
+            <!-- Theme -->
+             <div class="theme">
+                <a href="./xscape.htm"><img src="./images/themes.png" alt="themes"></a>
+                <a href="./xscape.htm">Change Theme</a>
+            </div>
+        </div>
+
+        <!-- 2nd div -->
+        <div class="main-div2">
+        <!-- xscape album -->
+        <div class="top-box">
+            <img src="./images/xcape-open.jpg" alt="xcape-open" class="xcape-open">
+            <div>
+                <p>Album</p>
+                <h1>Xscape</h1>
+                <div>
+                    <img src="./images/michael-jackson-profile.jpg" alt="michael-jackson-profile" class="michael-jackson-profile">
+                    <a href="" class="mj-name">Michael Jackson</a>
+                    <span class="album-details">&middot; 2014 &middot; 15 songs, 1 hr 13 min</span>
+                </div>
+            </div>
+        </div>
+        <!-- box that is sticked -->
+    
+        <div class="second-box">
+            <div class="box-tobe-hidden">
+                <img src="./images/play-button.png" alt="play-button" class="play-button">
+                <h1>Xscape</h1>
+            </div>
+            
+        
+        <!-- <div class="stick-title">
+        <div class="songs-title">
+            <div class="left-end">
+                <p class="p1">#</p>
+                <p class="p2">Title</p>
+            </div>
+            <div class="right-end">
+                <img src="./images/clock.png" alt="clock" class="clock" title="Duration">
+            </div>
+        </div>
+        </div> -->
+
+       </div>
+    
+    
+    <div class="bg-color">
+        <div class="relative">
+            <div class="box-tobe-shown">
+                <a href=""><img src="./images/play-button.png" alt="play-button" class="play-button"></a>
+                <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Save to your Library"></a>
+                <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Xscape"></a>
+            </div>
+            <div class="end">
+                <a href="">List</a>
+            </div>
+        </div>
+           
+           <div class="songs-title-shown">
+            <div class="left-end">
+                <p class="p1">#</p>
+                <p class="p2">Title</p>
+            </div>
+            <div class="right-end">
+                <img src="./images/clock.png" alt="clock" class="clock" title="Duration">
+            </div>
+            </div>
+            <div class="border-bottom-after-title"></div>
+            
+    </div>
+    
+<!-- songs names in order -->
+    <div class="songs-name-margin">
+        <div class="stick-title">
+        <div class="songs-title">
+            <div class="left-end">
+                <p class="p1">#</p>
+                <p class="p2">Title</p>
+            </div>
+            <div class="right-end">
+                <img src="./images/clock.png" alt="clock" class="clock" title="Duration">
+            </div>
+        </div>
+        </div>
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">1</p>
+                <p class="p2">
+                    <a href="" class="a1">love never felt so good</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>3:55</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Love Never Felt So Good by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Love Never Felt So Good by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">2</p>
+                <p class="p2">
+                    <a href="" class="a1">Chicago</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>4:05</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Chicago by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Chicago by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">3</p>
+                <p class="p2">
+                    <a href="" class="a1">loving you</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>3:15</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Loving You by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Loving You by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">4</p>
+                <p class="p2">
+                    <a href="" class="a1">A Place with no name</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play A Place With No Name by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for A Place With No Name by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">5</p>
+                <p class="p2">
+                    <a href="" class="a1">Slave to the Rythm</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Slave to the Rythm by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Slave to the Rythm by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">6</p>
+                <p class="p2">
+                    <a href="" class="a1">Do you know where your children are</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Do you know where your children are by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Do you know where your children are by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">7</p>
+                <p class="p2">
+                    <a href="" class="a1">Blue Gangsta</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Blue Gangsta by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Blue Gangsta by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">8</p>
+                <p class="p2">
+                    <a href="" class="a1">Xscape</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Xscape Name by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Xscape by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">9</p>
+                <p class="p2">
+                    <a href="" class="a1">A Place with no name(Original Version)</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play A Place With No Name(Original Version) by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for A Place With No Name(Original Version) by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">10</p>
+                <p class="p2">
+                    <a href="" class="a1">love never felt so good(Original Version)</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>3:55</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Love Never Felt So Good(Original Version) by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Love Never Felt So Good(Original Version) by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">11</p>
+                <p class="p2">
+                    <a href="" class="a1">Chicago(Original Version)</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>4:05</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Chicago(Original Version) by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Chicago(Original Version) by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">12</p>
+                <p class="p2">
+                    <a href="" class="a1">loving you(Original Version)</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>3:15</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Loving You(Original Version) by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Loving You(Original Version) by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">13</p>
+                <p class="p2">
+                    <a href="" class="a1">Slave to the Rythm(Original Version)</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Slave to the Rythm(Original Version) by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Slave to the Rythm(Original Version) by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">14</p>
+                <p class="p2">
+                    <a href="" class="a1">Do you know where your children are</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Do you know where your children are(Original Version) by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Do you know where your children are(Original Version) by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="for-position">
+        <div class="songs-name">
+            <div class="left-end">
+                <p class="p1">15</p>
+                <p class="p2">
+                    <a href="" class="a1">Blue Gangsta(Original Version)</a>
+                    <a href="" class="a2">Michael Jackson</a>
+                </p>
+            </div>
+            <div class="right-end">
+                <p>5:35</p>
+            </div>
+        </div>
+        <div class="hover-song-name">
+            <div>
+                <img src="./images/play.png" alt="play" class="hover-play-img" title="Play Blue Gangsta(Original Version) by Michael Jackson">
+                
+                <div>
+                   <a href=""><img src="./images/add-plus.png" alt="add-plus" class="add-plus" title="Add to Liked Songs"></a>
+                   <a href=""><img src="./images/three-dots.png" alt="three-dots" class="three-dots" title="More options for Blue Gangsta(Original Version) by Michael Jackson"></a> 
+                </div>
+            </div>
+        </div>
+        </div>
+
+        
+
+        
+
+
+    </div>
+    <!-- song name margin ends here -->
+
+
+    <!-- reference of this album -->
+     <div class="reference">
+        <p class="p1">May 9, 2014</p>
+        <p class="p2">Ⓟ 2014 MJJ Productions, Inc</p>
+     </div>
+     <!-- ref. ends -->
+
+     <!-- more by MJ -->
+      <div class="more-by-mj">
+        <div class="morebymj-heading">
+        <h1>More by Michael Jackson</h1>
+        <h6><a href="">See discography</a></h6>
+        </div>
+        <div class="mj-flex">
+            <div class="scroll">
+                        <img src="./images/mj5.jpg" alt="mj5" class="mj mj5">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj6.jpg" alt="mj6" class="mj mj6">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj7.jpg" alt="mj7" class="mj mj7">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj8.jpg" alt="mj8" class="mj mj8">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj9.jpg" alt="mj9" class="mj mj9">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <img src="./images/mj10.jpg" alt="mj10" class="mj mj10">
+                        <div class="hide">
+                            <a href="" class="absolute"></a>           
+                            <a href="" class="transparent"><img src="./images/play-button.png" alt="" class="play"></a>
+                        </div>
+                    </div>
+        </div>
+      </div>
+      <!-- more ny MJ ends here -->
+
+    <!-- browse album end -->
+            <!-- 2_box3 -->
+             <div class="final-container">
+        <div>
+            <div class="title">Company</div>
+            <div><a href="">About</a></div>
+            <div><a href="">Jobs</a></div>
+            <div><a href="">For the record</a></div>
+        </div>
+        <div>
+            <div class="title">Communities</div>
+            <div><a href="">For Artists</a></div>
+            <div><a href="">Developers</a></div>
+            <div><a href="">Advertising</a></div>
+            <div><a href="">Investors</a></div>
+            <div><a href="">Vendors</a></div>
+        </div>
+        <div>
+            <div class="title">Useful links</div>
+            <div><a href="">Support</a></div>
+            <div><a href="">Free Mobile App</a></div>
+            <div><a href="">Popular by country</a></div>
+        </div>
+        <div>
+            <div class="title">Spotify Plans</div>
+            <div><a href="">Premium Individual</a></div>
+            <div><a href="">Premium Duo</a></div>
+            <div><a href="">Premium Family</a></div>
+            <div><a href="">Premium Student</a></div>
+            <div><a href="">Spotify Free</a></div>
+        </div>
+        <div>
+            <a href=""><i class="fa fa-instagram" style="font-size:24px; color: white;"></i></a>
+            <a href=""><i class="fa fa-twitter" style="font-size:24px; color: white;"></i></a>
+            <a href=""><i class="fa fa-facebook-square" style="font-size:24px; color: white;"></i></a>
+        </div>
+       </div>
+       <!-- 2_box3 end -->
+        <div class="year">&copy;2025Melodify</div>
+        </div>
+    </div>
+</body>
+</html>

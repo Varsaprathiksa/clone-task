@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.melodify-logo{
+    width: 80px;
+    padding-top: 50px;
+}
+.h1{
+    margin-top: 30px;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.h2{
+    margin-top: 5px;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.label{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 800;
+}
+.input{
+    outline: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+    font-size: 1.2rem;
+    color: gainsboro;
+    padding: 15px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.form-link{
+    font-size: 1.2rem;
+    color:  rgb(29, 185, 84);
+}
+.submit{
+    border: 1px solid rgb(29, 185, 84);
+    outline: none;
+    width: 400px;
+    border-radius: 50px;
+    padding: 15px;
+    background-color:  rgb(29, 185, 84);
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.border-left{
+    border-bottom: 1px solid gray;
+    width: 190px;
+}
+.or{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.g-img, .fb-img, .apple-img{
+    width: 30px;
+    margin-right: 30px;
+}
+.g-img{
+    margin-right: 45px;
+}
+.apple-img{
+    margin-right: 60px;
+}
+.continue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    word-spacing: -0.1em;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.line{
+    border-bottom: 1px solid rgb(101, 100, 100);
+    width: 400px;
+    margin-top: 50px;
+}
+.login{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.login > span{
+    color: gainsboro;
+    font-size: 1.3rem;
+}
+.login > a{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+footer > div{
+    text-align: center;
+    color: gainsboro;
+    margin-bottom: 40px;
+}
+footer > div > a{
+    color: gainsboro;
+}
+/* hovering effects of login div */
+.continue:hover{
+    border: 1px solid white;
+}
+.input:hover{
+    border: 1px solid white;
+}
+.submit:hover{
+    background-color: rgb(63, 228, 121);
+}
+.login > a:hover{
+    color: rgb(29, 185, 84);
+}
+/* media queries */
+@media screen and (min-width:760px) and (max-width:1100px){
+    .melodify-logo{
+        width: 50px;
+    }
+    .h1{
+        font-size: 3rem;
+    }
+    .h2{
+        font-size: 3rem;
+    }
+    .label{
+        font-size: 1rem;
+    }
+    .input{
+        width: 300px;
+        font-size: 1rem;
+    }
+    .form-link{
+        font-size: 0.9rem;
+    }
+    .submit{
+        width: 300px;
+        font-size: 1.1rem;
+    }
+    .border-left{
+        width: 120px;
+    }
+    .continue {
+        width: 300px;
+        font-size: 1.1rem;
+    }
+    .line{
+        width: 290px;
+    }
+    .login > span{
+        font-size: 1.1rem;
+    }
+    .login > a{
+        font-size: 1.1rem;
+    }
+    footer > div{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:760px){
+    .melodify-logo{
+        width: 50px;
+    }
+    .h1{
+        font-size: 2rem;
+    }
+    .h2{
+        font-size: 2rem;
+    }
+    .label{
+        font-size: 1rem;
+    }
+    .input{
+        width: 300px;
+        font-size: 1rem;
+    }
+    .form-link{
+        font-size: 0.9rem;
+    }
+    .submit{
+        width: 300px;
+        font-size: 1.1rem;
+    }
+    .border-left{
+        width: 120px;
+    }
+    .continue {
+        width: 300px;
+        font-size: 1.1rem;
+    }
+    .line{
+        width: 290px;
+    }
+    .login > span{
+        font-size: 1.1rem;
+    }
+    .login > a{
+        font-size: 1.1rem;
+    }
+    footer > div{
+        font-size: 0.8rem;
+    }
+}
